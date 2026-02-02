@@ -1,4 +1,11 @@
-26698022073027058
+26708654446742947
+62684
+CONN_62684-402100ALF_AMP
+
+62684-402100ALF 
+0
+42
+42
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61375,13 +61382,6 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
-ECOS 15uk cap
-CAP_PAN_30X20_PAN
-
-ECOS1EP153BA 
-0
-2
-2
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -62460,6 +62460,55 @@ GDT 3R-6
 0
 3
 3
+Ground_Station
+LCD_NHD-C12832A1Z-FSW-FBW-3V3
+
+
+0
+19
+19
+Ground_Station
+LED_LTST-C170KRKT_LTO
+
+LTST-C170KRKT 
+0
+2
+2
+Ground_Station
+LED_LTST-C170KRKT_LTO-L
+
+LTST-C170KRKT 
+0
+2
+2
+Ground_Station
+LED_LTST-C170KRKT_LTO-M
+
+LTST-C170KRKT 
+0
+2
+2
+Ground_Station
+SOT-223_DIO
+
+AZ1117CH-3.3TRG1 
+0
+4
+4
+Ground_Station
+SOT-223_DIO-L
+
+AZ1117CH-3.3TRG1 
+0
+4
+4
+Ground_Station
+SOT-223_DIO-M
+
+AZ1117CH-3.3TRG1 
+0
+4
+4
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -99434,13 +99483,6 @@ Logo WEEE
 0
 0
 0
-TIP29C
-TO-220_STM
-
-TIP29C 
-0
-3
-3
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
