@@ -5234,11 +5234,11 @@
 	(footprint "Connector_Coaxial:SMA_BAT_Wireless_BWSMA-KWE-Z001"
 		(layer "F.Cu")
 		(uuid "98fa144c-5e5a-472f-8470-06b299280be6")
-		(at 109 86 180)
+		(at 96.45 48.95 90)
 		(descr "BAT Wireless BWSMA-KWE-Z00 https://www.lcsc.com/datasheet/lcsc_datasheet_2310171703_BAT-WIRELESS-BWSMA-KWE-Z001_C496551.pdf")
 		(tags "SMA THT Female Jack Horizontal")
 		(property "Reference" "AE1"
-			(at -5.2 0 90)
+			(at -5.2 0 0)
 			(layer "F.SilkS")
 			(uuid "891ad3a6-55c7-457a-ac23-ac239e99d496")
 			(effects
@@ -5249,7 +5249,7 @@
 			)
 		)
 		(property "Value" "Antenna"
-			(at 0 5 0)
+			(at 0 5 90)
 			(layer "F.Fab")
 			(uuid "35974097-5207-4ce4-82b7-79b355a07191")
 			(effects
@@ -5260,7 +5260,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5273,7 +5273,7 @@
 			)
 		)
 		(property "Description" "Antenna"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5343,16 +5343,6 @@
 			(uuid "3932fece-1643-4d01-8003-0a54d734023c")
 		)
 		(fp_line
-			(start 3 -3)
-			(end 3 3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "81aef747-97c2-47de-b71d-93e9f1b44092")
-		)
-		(fp_line
 			(start 2.5 -11.5)
 			(end 2.5 -3)
 			(stroke
@@ -5361,16 +5351,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "ecd3c947-b6a1-4b35-9b31-b3585269b39c")
-		)
-		(fp_line
-			(start -2 0)
-			(end -3 1)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "18c3df77-a9d1-4673-8134-d16ba19f1e64")
 		)
 		(fp_line
 			(start -2.5 -11.5)
@@ -5393,24 +5373,74 @@
 			(uuid "01a77946-c92e-4d35-bedd-34a8257b475f")
 		)
 		(fp_line
-			(start -3 3)
+			(start -3 -9.5)
+			(end 3 -10)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "35007866-a919-4b50-8eee-e47b954e5bdf")
+		)
+		(fp_line
+			(start -3 -9)
+			(end 3 -9.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "585c963f-e4a6-4933-b5ea-89ab1d6ce538")
+		)
+		(fp_line
+			(start -3 -8.5)
+			(end 3 -9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2381bc51-df77-4a3a-bb50-4bc49cb47e5f")
+		)
+		(fp_line
+			(start -3 -8)
+			(end 3 -8.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a78f16c1-b7fa-4411-a416-3d89213fab00")
+		)
+		(fp_line
+			(start -3 -7.5)
+			(end 3 -8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d862a563-d7e4-4d89-8ce1-639653a1e2e9")
+		)
+		(fp_line
+			(start -3 -7)
+			(end 3 -7.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f8097ea3-580b-4375-a10c-178d24df9221")
+		)
+		(fp_line
+			(start 3 -3)
 			(end 3 3)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c3e28c37-869d-4ac0-a10f-219bb04ec6f9")
-		)
-		(fp_line
-			(start -3 -1)
-			(end -2 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d961cca4-9d60-4f22-862d-625ba6a6486d")
+			(uuid "81aef747-97c2-47de-b71d-93e9f1b44092")
 		)
 		(fp_line
 			(start -3 -3)
@@ -5433,67 +5463,37 @@
 			(uuid "ae3a72da-c7dd-4212-b578-51b579b3244e")
 		)
 		(fp_line
-			(start -3 -7)
-			(end 3 -7.5)
+			(start -3 -1)
+			(end -2 0)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f8097ea3-580b-4375-a10c-178d24df9221")
+			(uuid "d961cca4-9d60-4f22-862d-625ba6a6486d")
 		)
 		(fp_line
-			(start -3 -7.5)
-			(end 3 -8)
+			(start -2 0)
+			(end -3 1)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d862a563-d7e4-4d89-8ce1-639653a1e2e9")
+			(uuid "18c3df77-a9d1-4673-8134-d16ba19f1e64")
 		)
 		(fp_line
-			(start -3 -8)
-			(end 3 -8.5)
+			(start -3 3)
+			(end 3 3)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a78f16c1-b7fa-4411-a416-3d89213fab00")
-		)
-		(fp_line
-			(start -3 -8.5)
-			(end 3 -9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "2381bc51-df77-4a3a-bb50-4bc49cb47e5f")
-		)
-		(fp_line
-			(start -3 -9)
-			(end 3 -9.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "585c963f-e4a6-4933-b5ea-89ab1d6ce538")
-		)
-		(fp_line
-			(start -3 -9.5)
-			(end 3 -10)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "35007866-a919-4b50-8eee-e47b954e5bdf")
+			(uuid "c3e28c37-869d-4ac0-a10f-219bb04ec6f9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "f91feb8a-f52b-42b0-a1a0-9dcce1ae1918")
 			(effects
@@ -5504,7 +5504,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0 180)
+			(at 0 0 90)
 			(size 2.3 2.3)
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
@@ -5518,7 +5518,7 @@
 			(uuid "d786779f-7c5c-47a7-9cf6-8e3aba30b831")
 		)
 		(pad "2" thru_hole circle
-			(at -2.55 -2.55 180)
+			(at -2.55 -2.55 90)
 			(size 2.2 2.2)
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
@@ -5528,7 +5528,7 @@
 			(uuid "64b088ab-5c1a-4e39-b5ed-4587e0545f44")
 		)
 		(pad "2" thru_hole circle
-			(at -2.55 2.55 180)
+			(at -2.55 2.55 90)
 			(size 2.2 2.2)
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
@@ -5538,7 +5538,7 @@
 			(uuid "8ffc1f52-3117-48dc-8c2a-c105409d3a94")
 		)
 		(pad "2" thru_hole circle
-			(at 2.55 -2.55 180)
+			(at 2.55 -2.55 90)
 			(size 2.2 2.2)
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
@@ -5548,7 +5548,7 @@
 			(uuid "0281a016-2362-4e59-a04c-60e7fb74fa4f")
 		)
 		(pad "2" thru_hole circle
-			(at 2.55 2.55 180)
+			(at 2.55 2.55 90)
 			(size 2.2 2.2)
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
